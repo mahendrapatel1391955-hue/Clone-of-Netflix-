@@ -1,0 +1,85 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    background: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 18px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+
+.logo {
+    width: 130px;
+    padding: 0px 20px ;
+}
+
+.logout-btn {
+    background: #e50914;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Hero */
+.hero {
+    padding: 30px 40px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Movie Section */
+.movies-section {
+    padding: 10px 40px;
+}
+
+.movies-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+/* Movie Card */
+.movie-card {
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background: #222;
+    padding-bottom: 10px;
+}
+.movie-card a{
+    text-decoration: none ;
+    color:white;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
